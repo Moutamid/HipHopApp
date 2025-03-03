@@ -7,11 +7,12 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.hiphopapp"
+        applicationId = "com.moutamid.hiphopapp"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
+        setProperty("archivesBaseName", "HipHopMusic-$versionName")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
